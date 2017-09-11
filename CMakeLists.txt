@@ -5,3 +5,5 @@ set(CMAKE_C_STANDARD 99)
 
 set(SOURCE_FILES main.c)
 add_executable(workshops_c ${SOURCE_FILES})
+add_executable(exercise1-1-1 workshop1/exercise1/exercise1-1-1.c)
+add_executable(clocktest workshop1/exercise2/clocktest.c)

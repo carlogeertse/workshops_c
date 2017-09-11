@@ -55,17 +55,6 @@ CMAKE_BINARY_DIR = D:\C_workspace\workshops_c\cmake-build-debug
 #=============================================================================
 # Targets provided globally by CMake.
 
-# Special rule for the target edit_cache
-edit_cache:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
-.PHONY : edit_cache
-
-# Special rule for the target edit_cache
-edit_cache/fast: edit_cache
-
-.PHONY : edit_cache/fast
-
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
@@ -76,6 +65,17 @@ rebuild_cache:
 rebuild_cache/fast: rebuild_cache
 
 .PHONY : rebuild_cache/fast
+
+# Special rule for the target edit_cache
+edit_cache:
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
+	"C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+.PHONY : edit_cache
+
+# Special rule for the target edit_cache
+edit_cache/fast: edit_cache
+
+.PHONY : edit_cache/fast
 
 # The main all target
 all: cmake_check_build_system
@@ -122,6 +122,32 @@ workshops_c/fast:
 	$(MAKE) -f CMakeFiles\workshops_c.dir\build.make CMakeFiles/workshops_c.dir/build
 .PHONY : workshops_c/fast
 
+#=============================================================================
+# Target rules for targets named exercise1-1-1
+
+# Build rule for target.
+exercise1-1-1: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exercise1-1-1
+.PHONY : exercise1-1-1
+
+# fast build rule for target.
+exercise1-1-1/fast:
+	$(MAKE) -f CMakeFiles\exercise1-1-1.dir\build.make CMakeFiles/exercise1-1-1.dir/build
+.PHONY : exercise1-1-1/fast
+
+#=============================================================================
+# Target rules for targets named clocktest
+
+# Build rule for target.
+clocktest: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 clocktest
+.PHONY : clocktest
+
+# fast build rule for target.
+clocktest/fast:
+	$(MAKE) -f CMakeFiles\clocktest.dir\build.make CMakeFiles/clocktest.dir/build
+.PHONY : clocktest/fast
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -149,6 +175,60 @@ main.c.s:
 	$(MAKE) -f CMakeFiles\workshops_c.dir\build.make CMakeFiles/workshops_c.dir/main.c.s
 .PHONY : main.c.s
 
+workshop1/exercise1/exercise1-1-1.obj: workshop1/exercise1/exercise1-1-1.c.obj
+
+.PHONY : workshop1/exercise1/exercise1-1-1.obj
+
+# target to build an object file
+workshop1/exercise1/exercise1-1-1.c.obj:
+	$(MAKE) -f CMakeFiles\exercise1-1-1.dir\build.make CMakeFiles/exercise1-1-1.dir/workshop1/exercise1/exercise1-1-1.c.obj
+.PHONY : workshop1/exercise1/exercise1-1-1.c.obj
+
+workshop1/exercise1/exercise1-1-1.i: workshop1/exercise1/exercise1-1-1.c.i
+
+.PHONY : workshop1/exercise1/exercise1-1-1.i
+
+# target to preprocess a source file
+workshop1/exercise1/exercise1-1-1.c.i:
+	$(MAKE) -f CMakeFiles\exercise1-1-1.dir\build.make CMakeFiles/exercise1-1-1.dir/workshop1/exercise1/exercise1-1-1.c.i
+.PHONY : workshop1/exercise1/exercise1-1-1.c.i
+
+workshop1/exercise1/exercise1-1-1.s: workshop1/exercise1/exercise1-1-1.c.s
+
+.PHONY : workshop1/exercise1/exercise1-1-1.s
+
+# target to generate assembly for a file
+workshop1/exercise1/exercise1-1-1.c.s:
+	$(MAKE) -f CMakeFiles\exercise1-1-1.dir\build.make CMakeFiles/exercise1-1-1.dir/workshop1/exercise1/exercise1-1-1.c.s
+.PHONY : workshop1/exercise1/exercise1-1-1.c.s
+
+workshop1/exercise2/clocktest.obj: workshop1/exercise2/clocktest.c.obj
+
+.PHONY : workshop1/exercise2/clocktest.obj
+
+# target to build an object file
+workshop1/exercise2/clocktest.c.obj:
+	$(MAKE) -f CMakeFiles\clocktest.dir\build.make CMakeFiles/clocktest.dir/workshop1/exercise2/clocktest.c.obj
+.PHONY : workshop1/exercise2/clocktest.c.obj
+
+workshop1/exercise2/clocktest.i: workshop1/exercise2/clocktest.c.i
+
+.PHONY : workshop1/exercise2/clocktest.i
+
+# target to preprocess a source file
+workshop1/exercise2/clocktest.c.i:
+	$(MAKE) -f CMakeFiles\clocktest.dir\build.make CMakeFiles/clocktest.dir/workshop1/exercise2/clocktest.c.i
+.PHONY : workshop1/exercise2/clocktest.c.i
+
+workshop1/exercise2/clocktest.s: workshop1/exercise2/clocktest.c.s
+
+.PHONY : workshop1/exercise2/clocktest.s
+
+# target to generate assembly for a file
+workshop1/exercise2/clocktest.c.s:
+	$(MAKE) -f CMakeFiles\clocktest.dir\build.make CMakeFiles/clocktest.dir/workshop1/exercise2/clocktest.c.s
+.PHONY : workshop1/exercise2/clocktest.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -156,11 +236,19 @@ help:
 	@echo ... clean
 	@echo ... depend
 	@echo ... workshops_c
-	@echo ... edit_cache
+	@echo ... exercise1-1-1
 	@echo ... rebuild_cache
+	@echo ... clocktest
+	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
 	@echo ... main.s
+	@echo ... workshop1/exercise1/exercise1-1-1.obj
+	@echo ... workshop1/exercise1/exercise1-1-1.i
+	@echo ... workshop1/exercise1/exercise1-1-1.s
+	@echo ... workshop1/exercise2/clocktest.obj
+	@echo ... workshop1/exercise2/clocktest.i
+	@echo ... workshop1/exercise2/clocktest.s
 .PHONY : help
 
 
