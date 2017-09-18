@@ -47,10 +47,10 @@ RM = "C:\Program Files\JetBrains\CLion 2017.2.2\bin\cmake\bin\cmake.exe" -E remo
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\C_workspace\workshops_c
+CMAKE_SOURCE_DIR = C:\Users\Carlo\CLionProjects\workshops_c
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\C_workspace\workshops_c\cmake-build-debug
+CMAKE_BINARY_DIR = C:\Users\Carlo\CLionProjects\workshops_c\cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -79,9 +79,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_workspace\workshops_c\cmake-build-debug\CMakeFiles D:\C_workspace\workshops_c\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Carlo\CLionProjects\workshops_c\cmake-build-debug\CMakeFiles C:\Users\Carlo\CLionProjects\workshops_c\cmake-build-debug\CMakeFiles\progress.marks
 	$(MAKE) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start D:\C_workspace\workshops_c\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\Carlo\CLionProjects\workshops_c\cmake-build-debug\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -108,6 +108,19 @@ preinstall/fast:
 depend:
 	$(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles\Makefile.cmake 1
 .PHONY : depend
+
+#=============================================================================
+# Target rules for targets named exercise1-1-2
+
+# Build rule for target.
+exercise1-1-2: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exercise1-1-2
+.PHONY : exercise1-1-2
+
+# fast build rule for target.
+exercise1-1-2/fast:
+	$(MAKE) -f CMakeFiles\exercise1-1-2.dir\build.make CMakeFiles/exercise1-1-2.dir/build
+.PHONY : exercise1-1-2/fast
 
 #=============================================================================
 # Target rules for targets named workshops_c
@@ -147,6 +160,19 @@ clocktest: cmake_check_build_system
 clocktest/fast:
 	$(MAKE) -f CMakeFiles\clocktest.dir\build.make CMakeFiles/clocktest.dir/build
 .PHONY : clocktest/fast
+
+#=============================================================================
+# Target rules for targets named exercise1-1-3
+
+# Build rule for target.
+exercise1-1-3: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exercise1-1-3
+.PHONY : exercise1-1-3
+
+# fast build rule for target.
+exercise1-1-3/fast:
+	$(MAKE) -f CMakeFiles\exercise1-1-3.dir\build.make CMakeFiles/exercise1-1-3.dir/build
+.PHONY : exercise1-1-3/fast
 
 main.obj: main.c.obj
 
@@ -202,6 +228,60 @@ workshop1/exercise1/exercise1-1-1.c.s:
 	$(MAKE) -f CMakeFiles\exercise1-1-1.dir\build.make CMakeFiles/exercise1-1-1.dir/workshop1/exercise1/exercise1-1-1.c.s
 .PHONY : workshop1/exercise1/exercise1-1-1.c.s
 
+workshop1/exercise1/exercise1-1-2.obj: workshop1/exercise1/exercise1-1-2.c.obj
+
+.PHONY : workshop1/exercise1/exercise1-1-2.obj
+
+# target to build an object file
+workshop1/exercise1/exercise1-1-2.c.obj:
+	$(MAKE) -f CMakeFiles\exercise1-1-2.dir\build.make CMakeFiles/exercise1-1-2.dir/workshop1/exercise1/exercise1-1-2.c.obj
+.PHONY : workshop1/exercise1/exercise1-1-2.c.obj
+
+workshop1/exercise1/exercise1-1-2.i: workshop1/exercise1/exercise1-1-2.c.i
+
+.PHONY : workshop1/exercise1/exercise1-1-2.i
+
+# target to preprocess a source file
+workshop1/exercise1/exercise1-1-2.c.i:
+	$(MAKE) -f CMakeFiles\exercise1-1-2.dir\build.make CMakeFiles/exercise1-1-2.dir/workshop1/exercise1/exercise1-1-2.c.i
+.PHONY : workshop1/exercise1/exercise1-1-2.c.i
+
+workshop1/exercise1/exercise1-1-2.s: workshop1/exercise1/exercise1-1-2.c.s
+
+.PHONY : workshop1/exercise1/exercise1-1-2.s
+
+# target to generate assembly for a file
+workshop1/exercise1/exercise1-1-2.c.s:
+	$(MAKE) -f CMakeFiles\exercise1-1-2.dir\build.make CMakeFiles/exercise1-1-2.dir/workshop1/exercise1/exercise1-1-2.c.s
+.PHONY : workshop1/exercise1/exercise1-1-2.c.s
+
+workshop1/exercise1/exercise1-1-3.obj: workshop1/exercise1/exercise1-1-3.c.obj
+
+.PHONY : workshop1/exercise1/exercise1-1-3.obj
+
+# target to build an object file
+workshop1/exercise1/exercise1-1-3.c.obj:
+	$(MAKE) -f CMakeFiles\exercise1-1-3.dir\build.make CMakeFiles/exercise1-1-3.dir/workshop1/exercise1/exercise1-1-3.c.obj
+.PHONY : workshop1/exercise1/exercise1-1-3.c.obj
+
+workshop1/exercise1/exercise1-1-3.i: workshop1/exercise1/exercise1-1-3.c.i
+
+.PHONY : workshop1/exercise1/exercise1-1-3.i
+
+# target to preprocess a source file
+workshop1/exercise1/exercise1-1-3.c.i:
+	$(MAKE) -f CMakeFiles\exercise1-1-3.dir\build.make CMakeFiles/exercise1-1-3.dir/workshop1/exercise1/exercise1-1-3.c.i
+.PHONY : workshop1/exercise1/exercise1-1-3.c.i
+
+workshop1/exercise1/exercise1-1-3.s: workshop1/exercise1/exercise1-1-3.c.s
+
+.PHONY : workshop1/exercise1/exercise1-1-3.s
+
+# target to generate assembly for a file
+workshop1/exercise1/exercise1-1-3.c.s:
+	$(MAKE) -f CMakeFiles\exercise1-1-3.dir\build.make CMakeFiles/exercise1-1-3.dir/workshop1/exercise1/exercise1-1-3.c.s
+.PHONY : workshop1/exercise1/exercise1-1-3.c.s
+
 workshop1/exercise2/clocktest.obj: workshop1/exercise2/clocktest.c.obj
 
 .PHONY : workshop1/exercise2/clocktest.obj
@@ -235,10 +315,12 @@ help:
 	@echo ... all (the default if no target is provided)
 	@echo ... clean
 	@echo ... depend
+	@echo ... exercise1-1-2
 	@echo ... workshops_c
 	@echo ... exercise1-1-1
 	@echo ... rebuild_cache
 	@echo ... clocktest
+	@echo ... exercise1-1-3
 	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
@@ -246,6 +328,12 @@ help:
 	@echo ... workshop1/exercise1/exercise1-1-1.obj
 	@echo ... workshop1/exercise1/exercise1-1-1.i
 	@echo ... workshop1/exercise1/exercise1-1-1.s
+	@echo ... workshop1/exercise1/exercise1-1-2.obj
+	@echo ... workshop1/exercise1/exercise1-1-2.i
+	@echo ... workshop1/exercise1/exercise1-1-2.s
+	@echo ... workshop1/exercise1/exercise1-1-3.obj
+	@echo ... workshop1/exercise1/exercise1-1-3.i
+	@echo ... workshop1/exercise1/exercise1-1-3.s
 	@echo ... workshop1/exercise2/clocktest.obj
 	@echo ... workshop1/exercise2/clocktest.i
 	@echo ... workshop1/exercise2/clocktest.s

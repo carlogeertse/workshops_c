@@ -49,7 +49,9 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
+  "CMakeFiles/exercise1-1-2.dir/DependInfo.cmake"
   "CMakeFiles/workshops_c.dir/DependInfo.cmake"
   "CMakeFiles/exercise1-1-1.dir/DependInfo.cmake"
   "CMakeFiles/clocktest.dir/DependInfo.cmake"
+  "CMakeFiles/exercise1-1-3.dir/DependInfo.cmake"
   )
