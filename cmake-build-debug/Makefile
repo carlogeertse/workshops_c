@@ -174,6 +174,32 @@ exercise1-1-3/fast:
 	$(MAKE) -f CMakeFiles\exercise1-1-3.dir\build.make CMakeFiles/exercise1-1-3.dir/build
 .PHONY : exercise1-1-3/fast
 
+#=============================================================================
+# Target rules for targets named exercise1-1-4
+
+# Build rule for target.
+exercise1-1-4: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exercise1-1-4
+.PHONY : exercise1-1-4
+
+# fast build rule for target.
+exercise1-1-4/fast:
+	$(MAKE) -f CMakeFiles\exercise1-1-4.dir\build.make CMakeFiles/exercise1-1-4.dir/build
+.PHONY : exercise1-1-4/fast
+
+#=============================================================================
+# Target rules for targets named exercise1-1-5
+
+# Build rule for target.
+exercise1-1-5: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 exercise1-1-5
+.PHONY : exercise1-1-5
+
+# fast build rule for target.
+exercise1-1-5/fast:
+	$(MAKE) -f CMakeFiles\exercise1-1-5.dir\build.make CMakeFiles/exercise1-1-5.dir/build
+.PHONY : exercise1-1-5/fast
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -282,6 +308,60 @@ workshop1/exercise1/exercise1-1-3.c.s:
 	$(MAKE) -f CMakeFiles\exercise1-1-3.dir\build.make CMakeFiles/exercise1-1-3.dir/workshop1/exercise1/exercise1-1-3.c.s
 .PHONY : workshop1/exercise1/exercise1-1-3.c.s
 
+workshop1/exercise1/exercise1-1-4.obj: workshop1/exercise1/exercise1-1-4.c.obj
+
+.PHONY : workshop1/exercise1/exercise1-1-4.obj
+
+# target to build an object file
+workshop1/exercise1/exercise1-1-4.c.obj:
+	$(MAKE) -f CMakeFiles\exercise1-1-4.dir\build.make CMakeFiles/exercise1-1-4.dir/workshop1/exercise1/exercise1-1-4.c.obj
+.PHONY : workshop1/exercise1/exercise1-1-4.c.obj
+
+workshop1/exercise1/exercise1-1-4.i: workshop1/exercise1/exercise1-1-4.c.i
+
+.PHONY : workshop1/exercise1/exercise1-1-4.i
+
+# target to preprocess a source file
+workshop1/exercise1/exercise1-1-4.c.i:
+	$(MAKE) -f CMakeFiles\exercise1-1-4.dir\build.make CMakeFiles/exercise1-1-4.dir/workshop1/exercise1/exercise1-1-4.c.i
+.PHONY : workshop1/exercise1/exercise1-1-4.c.i
+
+workshop1/exercise1/exercise1-1-4.s: workshop1/exercise1/exercise1-1-4.c.s
+
+.PHONY : workshop1/exercise1/exercise1-1-4.s
+
+# target to generate assembly for a file
+workshop1/exercise1/exercise1-1-4.c.s:
+	$(MAKE) -f CMakeFiles\exercise1-1-4.dir\build.make CMakeFiles/exercise1-1-4.dir/workshop1/exercise1/exercise1-1-4.c.s
+.PHONY : workshop1/exercise1/exercise1-1-4.c.s
+
+workshop1/exercise1/exercise1-1-5.obj: workshop1/exercise1/exercise1-1-5.c.obj
+
+.PHONY : workshop1/exercise1/exercise1-1-5.obj
+
+# target to build an object file
+workshop1/exercise1/exercise1-1-5.c.obj:
+	$(MAKE) -f CMakeFiles\exercise1-1-5.dir\build.make CMakeFiles/exercise1-1-5.dir/workshop1/exercise1/exercise1-1-5.c.obj
+.PHONY : workshop1/exercise1/exercise1-1-5.c.obj
+
+workshop1/exercise1/exercise1-1-5.i: workshop1/exercise1/exercise1-1-5.c.i
+
+.PHONY : workshop1/exercise1/exercise1-1-5.i
+
+# target to preprocess a source file
+workshop1/exercise1/exercise1-1-5.c.i:
+	$(MAKE) -f CMakeFiles\exercise1-1-5.dir\build.make CMakeFiles/exercise1-1-5.dir/workshop1/exercise1/exercise1-1-5.c.i
+.PHONY : workshop1/exercise1/exercise1-1-5.c.i
+
+workshop1/exercise1/exercise1-1-5.s: workshop1/exercise1/exercise1-1-5.c.s
+
+.PHONY : workshop1/exercise1/exercise1-1-5.s
+
+# target to generate assembly for a file
+workshop1/exercise1/exercise1-1-5.c.s:
+	$(MAKE) -f CMakeFiles\exercise1-1-5.dir\build.make CMakeFiles/exercise1-1-5.dir/workshop1/exercise1/exercise1-1-5.c.s
+.PHONY : workshop1/exercise1/exercise1-1-5.c.s
+
 workshop1/exercise2/clocktest.obj: workshop1/exercise2/clocktest.c.obj
 
 .PHONY : workshop1/exercise2/clocktest.obj
@@ -318,9 +398,11 @@ help:
 	@echo ... exercise1-1-2
 	@echo ... workshops_c
 	@echo ... exercise1-1-1
-	@echo ... rebuild_cache
 	@echo ... clocktest
+	@echo ... rebuild_cache
 	@echo ... exercise1-1-3
+	@echo ... exercise1-1-4
+	@echo ... exercise1-1-5
 	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
@@ -334,6 +416,12 @@ help:
 	@echo ... workshop1/exercise1/exercise1-1-3.obj
 	@echo ... workshop1/exercise1/exercise1-1-3.i
 	@echo ... workshop1/exercise1/exercise1-1-3.s
+	@echo ... workshop1/exercise1/exercise1-1-4.obj
+	@echo ... workshop1/exercise1/exercise1-1-4.i
+	@echo ... workshop1/exercise1/exercise1-1-4.s
+	@echo ... workshop1/exercise1/exercise1-1-5.obj
+	@echo ... workshop1/exercise1/exercise1-1-5.i
+	@echo ... workshop1/exercise1/exercise1-1-5.s
 	@echo ... workshop1/exercise2/clocktest.obj
 	@echo ... workshop1/exercise2/clocktest.i
 	@echo ... workshop1/exercise2/clocktest.s
