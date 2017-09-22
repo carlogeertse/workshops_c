@@ -1,20 +1,48 @@
 #include <stdio.h>
 
+/**
+ * Moves some items in an array to the right
+ * @param int items[]: An array filled with items
+ * @param int shiftStart: The index of the start of the collection of items that need to be shifted to the right
+ * @param int shiftEnd: The index of the end of the collection of items that need to be shifted to the right
+ * @param int shiftAmount: The amount of positions that the items need to be shifted to the right
+ */
+void shiftRight(int items[], int shiftStart, int shiftEnd, int shiftAmount) {
+    for (int i = shiftEnd; i > shiftStart; i--) {
+        items[i] = items[i - shiftAmount];
+    }
+}
+
+/**
+ * This function merges an array into the target array. It assumes the target array has 'empty' spots represented as -1
+ * @param sourceArray The source array that needs to be merged into the target array.
+ * @param sourceSize The size of the source array
+ * @param targetArray The target array that the source array needs to be merged into
+ */
+void mergeAndSortArrays(int sourceArray[], int sourceSize, int targetArray[]) {
+    int inserted = 0;
+    int i = 0;
+    //Merge the rest of the source array into the target array, sorting in the meantime
+    for (int j = 0; j < sourceSize; ++j) {
+        while (!inserted) {
+            if (sourceArray[j] > targetArray[i]) {
+                shiftRight(targetArray, i, sourceSize * 2 - 1, 1);
+                targetArray[i] = sourceArray[j];
+                inserted = 1;
+            } else if (targetArray[i] == -1) {
+                targetArray[i] = sourceArray[j];
+                inserted = 1;
+            } else {
+                i++;
+            }
+        }
+        inserted = 0;
+        i = 0;
+    }
+}
+
 int main() {
     int amount = 0; //init aray size 1
-
-    /**
-     * Moves some items in an array to the right
-     * @param int items[]: An array filled with items
-     * @param int shiftStart: The index of the start of the collection of items that need to be shifted to the right
-     * @param int shiftEnd: The index of the end of the collection of items that need to be shifted to the right
-     * @param int shiftAmount: The amount of positions that the items need to be shifted to the right
-     */
-    void shiftRight(int items[], int shiftStart, int shiftEnd, int shiftAmount) {
-        for (int i = shiftEnd; i > shiftStart; i--) {
-            items[i] = items[i - shiftAmount];
-        }
-    }
 
     //Fill array 1
     printf("Please insert the amount of integers to be stored in the arrays:\n");
@@ -33,30 +61,16 @@ int main() {
         scanf("%d", &numberArray2[i]);
     }
 
-    int mergedArray[amount * 2];
-
-    //Copy firt element of array 1 into merged array
-    mergedArray[0] = numberArray1[0];
-
-    int insterted = 0;
-    int i = 0;
-    //Merge the rest of array1 into merged array, sorting in the meantime
-    for (int j = 1; j < amount; ++j) {
-        while (!insterted) {
-            if (numberArray1[j] < mergedArray[i]) {
-                shiftRight(mergedArray, i, amount * 2 - 1, 1);
-                mergedArray[i] = numberArray1[j];
-                insterted = 1;
-            } else if (i == amount * 2 - 1) {
-                mergedArray[i] = numberArray1[j];
-            } else {
-                i++;
-            }
-        }
+    //Initialise array with -1 on all 'empty' positions.
+    int mergedArray1[amount * 2];
+    for (int k = 0; k < amount * 2; ++k) {
+        mergedArray1[k] = -1;
     }
 
+    mergeAndSortArrays(numberArray1, amount, mergedArray1);
+    mergeAndSortArrays(numberArray2, amount, mergedArray1);
 
-    for (int j = 0; j < 3; j++) {
-        printf("%d ", mergedArray[j]);
+    for (int j = 0; j < amount*2; j++) {
+        printf("%d ", mergedArray1[j]);
     }
 }
