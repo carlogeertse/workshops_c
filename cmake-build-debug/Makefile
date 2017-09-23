@@ -200,6 +200,19 @@ exercise1-1-5/fast:
 	$(MAKE) -f CMakeFiles\exercise1-1-5.dir\build.make CMakeFiles/exercise1-1-5.dir/build
 .PHONY : exercise1-1-5/fast
 
+#=============================================================================
+# Target rules for targets named bubblesort_vs_quicksort
+
+# Build rule for target.
+bubblesort_vs_quicksort: cmake_check_build_system
+	$(MAKE) -f CMakeFiles\Makefile2 bubblesort_vs_quicksort
+.PHONY : bubblesort_vs_quicksort
+
+# fast build rule for target.
+bubblesort_vs_quicksort/fast:
+	$(MAKE) -f CMakeFiles\bubblesort_vs_quicksort.dir\build.make CMakeFiles/bubblesort_vs_quicksort.dir/build
+.PHONY : bubblesort_vs_quicksort/fast
+
 main.obj: main.c.obj
 
 .PHONY : main.obj
@@ -389,6 +402,33 @@ workshop1/exercise2/clocktest.c.s:
 	$(MAKE) -f CMakeFiles\clocktest.dir\build.make CMakeFiles/clocktest.dir/workshop1/exercise2/clocktest.c.s
 .PHONY : workshop1/exercise2/clocktest.c.s
 
+workshop1/exercise3/bubblesort_vs_quicksort.obj: workshop1/exercise3/bubblesort_vs_quicksort.c.obj
+
+.PHONY : workshop1/exercise3/bubblesort_vs_quicksort.obj
+
+# target to build an object file
+workshop1/exercise3/bubblesort_vs_quicksort.c.obj:
+	$(MAKE) -f CMakeFiles\bubblesort_vs_quicksort.dir\build.make CMakeFiles/bubblesort_vs_quicksort.dir/workshop1/exercise3/bubblesort_vs_quicksort.c.obj
+.PHONY : workshop1/exercise3/bubblesort_vs_quicksort.c.obj
+
+workshop1/exercise3/bubblesort_vs_quicksort.i: workshop1/exercise3/bubblesort_vs_quicksort.c.i
+
+.PHONY : workshop1/exercise3/bubblesort_vs_quicksort.i
+
+# target to preprocess a source file
+workshop1/exercise3/bubblesort_vs_quicksort.c.i:
+	$(MAKE) -f CMakeFiles\bubblesort_vs_quicksort.dir\build.make CMakeFiles/bubblesort_vs_quicksort.dir/workshop1/exercise3/bubblesort_vs_quicksort.c.i
+.PHONY : workshop1/exercise3/bubblesort_vs_quicksort.c.i
+
+workshop1/exercise3/bubblesort_vs_quicksort.s: workshop1/exercise3/bubblesort_vs_quicksort.c.s
+
+.PHONY : workshop1/exercise3/bubblesort_vs_quicksort.s
+
+# target to generate assembly for a file
+workshop1/exercise3/bubblesort_vs_quicksort.c.s:
+	$(MAKE) -f CMakeFiles\bubblesort_vs_quicksort.dir\build.make CMakeFiles/bubblesort_vs_quicksort.dir/workshop1/exercise3/bubblesort_vs_quicksort.c.s
+.PHONY : workshop1/exercise3/bubblesort_vs_quicksort.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -398,11 +438,12 @@ help:
 	@echo ... exercise1-1-2
 	@echo ... workshops_c
 	@echo ... exercise1-1-1
-	@echo ... clocktest
 	@echo ... rebuild_cache
+	@echo ... clocktest
 	@echo ... exercise1-1-3
 	@echo ... exercise1-1-4
 	@echo ... exercise1-1-5
+	@echo ... bubblesort_vs_quicksort
 	@echo ... edit_cache
 	@echo ... main.obj
 	@echo ... main.i
@@ -425,6 +466,9 @@ help:
 	@echo ... workshop1/exercise2/clocktest.obj
 	@echo ... workshop1/exercise2/clocktest.i
 	@echo ... workshop1/exercise2/clocktest.s
+	@echo ... workshop1/exercise3/bubblesort_vs_quicksort.obj
+	@echo ... workshop1/exercise3/bubblesort_vs_quicksort.i
+	@echo ... workshop1/exercise3/bubblesort_vs_quicksort.s
 .PHONY : help
 
 

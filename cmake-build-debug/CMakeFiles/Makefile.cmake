@@ -56,4 +56,5 @@ set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/exercise1-1-3.dir/DependInfo.cmake"
   "CMakeFiles/exercise1-1-4.dir/DependInfo.cmake"
   "CMakeFiles/exercise1-1-5.dir/DependInfo.cmake"
+  "CMakeFiles/bubblesort_vs_quicksort.dir/DependInfo.cmake"
   )
