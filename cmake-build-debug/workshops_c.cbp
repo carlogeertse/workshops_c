@@ -8,18 +8,18 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-2">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -33,15 +33,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-2"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-2/fast">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-2.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -55,15 +55,59 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-2/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise2-1-1">
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise2-1-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise2-1-1"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise2-1-1/fast">
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise2-1-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise2-1-1/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="workshops_c">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/workshops_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/workshops_c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -77,15 +121,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 workshops_c"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 workshops_c"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="workshops_c/fast">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/workshops_c.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/workshops_c.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -99,15 +143,59 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 workshops_c/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 workshops_c/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise2-1-2">
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise2-1-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise2-1-2"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="exercise2-1-2/fast">
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise2-1-2.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/include-fixed"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise2-1-2/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-1">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -121,15 +209,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-1"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-1"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-1/fast">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-1.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-1.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -143,25 +231,25 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-1/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-1/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clocktest">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/clocktest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/clocktest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -175,15 +263,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clocktest"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clocktest"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="clocktest/fast">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/clocktest.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/clocktest.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -197,15 +285,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clocktest/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clocktest/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-3">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -219,15 +307,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-3"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-3"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-3/fast">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-3.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-3.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -241,15 +329,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-3/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-3/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-4">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -263,15 +351,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-4"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-4"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-4/fast">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-4.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-4.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -285,15 +373,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-4/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-4/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-5">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -307,15 +395,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-5"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-5"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="exercise1-1-5/fast">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/exercise1-1-5.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/exercise1-1-5.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -329,15 +417,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-5/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 exercise1-1-5/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bubblesort_vs_quicksort">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/bubblesort_vs_quicksort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/bubblesort_vs_quicksort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -351,15 +439,15 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubblesort_vs_quicksort"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubblesort_vs_quicksort"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="bubblesort_vs_quicksort/fast">
-				<Option output="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/bubblesort_vs_quicksort.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option output="D:/C_workspace/workshops_c/cmake-build-debug/bubblesort_vs_quicksort.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -373,48 +461,54 @@
 					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/6.3.0/../../../../mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubblesort_vs_quicksort/fast"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 bubblesort_vs_quicksort/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug"/>
+				<Option working_dir="D:/C_workspace/workshops_c/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Carlo/CLionProjects/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;D:/C_workspace/workshops_c/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/main.c">
+		<Unit filename="D:/C_workspace/workshops_c/main.c">
 			<Option target="workshops_c"/>
 		</Unit>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/workshop1/exercise1/exercise1-1-1.c">
+		<Unit filename="D:/C_workspace/workshops_c/workshop1/exercise1/exercise1-1-1.c">
 			<Option target="exercise1-1-1"/>
 		</Unit>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/workshop1/exercise1/exercise1-1-2.c">
+		<Unit filename="D:/C_workspace/workshops_c/workshop1/exercise1/exercise1-1-2.c">
 			<Option target="exercise1-1-2"/>
 		</Unit>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/workshop1/exercise1/exercise1-1-3.c">
+		<Unit filename="D:/C_workspace/workshops_c/workshop1/exercise1/exercise1-1-3.c">
 			<Option target="exercise1-1-3"/>
 		</Unit>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/workshop1/exercise1/exercise1-1-4.c">
+		<Unit filename="D:/C_workspace/workshops_c/workshop1/exercise1/exercise1-1-4.c">
 			<Option target="exercise1-1-4"/>
 		</Unit>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/workshop1/exercise1/exercise1-1-5.c">
+		<Unit filename="D:/C_workspace/workshops_c/workshop1/exercise1/exercise1-1-5.c">
 			<Option target="exercise1-1-5"/>
 		</Unit>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/workshop1/exercise2/clocktest.c">
+		<Unit filename="D:/C_workspace/workshops_c/workshop1/exercise2/clocktest.c">
 			<Option target="clocktest"/>
 		</Unit>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/workshop1/exercise3/bubblesort_vs_quicksort.c">
+		<Unit filename="D:/C_workspace/workshops_c/workshop1/exercise3/bubblesort_vs_quicksort.c">
 			<Option target="bubblesort_vs_quicksort"/>
 		</Unit>
-		<Unit filename="C:/Users/Carlo/CLionProjects/workshops_c/CMakeLists.txt">
+		<Unit filename="D:/C_workspace/workshops_c/workshop2/exercise2-1-1.c">
+			<Option target="exercise2-1-1"/>
+		</Unit>
+		<Unit filename="D:/C_workspace/workshops_c/workshop2/exercise2-1-2.c">
+			<Option target="exercise2-1-2"/>
+		</Unit>
+		<Unit filename="D:/C_workspace/workshops_c/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

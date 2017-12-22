@@ -65,6 +65,9 @@ void swap(int *element1Ptr, int *element2Ptr) {
 
 /**
  * Sort an array of integers by using the BubbleSort algorithm
+ * Complexity: Best case: O(n)
+ *             Worst case: O(n^2)
+ *             Average case: O(n^2)
  * @param array The array that needs to be sorted
  * @param size The size of the array that needs to be sorted
  */
@@ -105,6 +108,9 @@ int partition(int arr[], int low, int high) {
 
 /**
  * This function sorts an array of integers by applying the QuickSort algorithm
+ * Complexity: Best case: O(n log n)
+ *             Worst case: O(n^2)
+ *             Average case: O(n log n)
  * @param arr Array to be sorted
  * @param low Starting index
  * @param high Ending index
